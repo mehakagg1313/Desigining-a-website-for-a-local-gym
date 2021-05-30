@@ -1,0 +1,96 @@
+body{
+    font-family: 'Balsamiq Sans', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('img/background.jpg')
+    
+}
+.left{
+    position: absolute;
+    left:34px;
+    top:20px;
+    display:inline-block;
+   /* border:2px solid red ;*/
+
+}
+.mid{
+    top : 20px;
+    display: block;
+    width:33%;
+    margin:12px auto;
+  /*  border:2px solid green ;*/
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 18px;
+}
+.left div{
+    text-align: center;
+    line-height: 18px;
+    font-size: 20pxs;
+}
+.left img{
+    width:70px;
+    filter: invert(100%);
+    
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding : 3px 10px;
+}
+.navbar li a:hover, .navbar li a.active{
+    color: grey;
+    text-decoration: underline;
+}
+.right{
+    position: absolute;
+    right:34px;
+    top:20px;
+    display: inline-block;
+   /* border:2px solid yellow ;*/
+}
+.btn{
+    font-family: 'Balsamiq Sans', cursive;
+    margin:4px 14px;
+    background-color: white;
+    color:black;
+    padding: 3px 4px;
+    border-radius:10px;
+    border:2px solid grey;
+    font-size:15px;
+    cursor:pointer;
+}
+.btn:hover{
+    background-color: rgb(113, 197, 92);
+}
+.container{
+    border: 2px solid white;
+    margin: 106px 80px;
+    padding: 60px;
+    width: 33%;
+    right: 70px;
+    border-radius: 20px;
+}
+.form-group input{
+    font-family:'Balsamiq Sans', cursive;
+    text-align:center;
+    display:block;
+    width:200px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+.container h1{
+    text-align: center ;
+}
+.container button{
+    display: block;
+    width:70px;
+    margin:20px auto;
+}
